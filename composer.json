@@ -1,0 +1,13 @@
+{
+    "authors": [
+        {
+            "name": "Krystian Łabęcki
+            "email": "krystian.s.labecki@gmail.com
+            "role": "Developer"
+        }
+     
+    ],
+    "require": {
+        "components/jquery": "^3.6"
+    }
+}
