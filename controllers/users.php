@@ -15,7 +15,6 @@ class UsersController extends Controller{
 			$this->redirect('users', 'register');
 		}
 		else {
-			Messages::setMsg("Klient nie został dodany", "error");
 			$this->redirect('users', 'register');
 		}
 	}
