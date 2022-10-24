@@ -1,3 +1,4 @@
+<section class="admin-table">
 	<?php if(isset($_SESSION['is_logged_in'])) : ?>
 	<?php endif; ?>
 	<div class="col-lg-12">
@@ -35,3 +36,6 @@
 	<?php endforeach; ?>
 </table>
 	</div>
+	</section>
+	<div style="min-height: 775px;">
+</div>

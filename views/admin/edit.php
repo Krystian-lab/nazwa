@@ -1,8 +1,9 @@
+<section class="signin-page account">
 <div class="panel panel-default">
   <div class="panel-body">
     <form method="post" action="<?php echo ROOT_URL; ?>admin/change/<?=$model['id_user'];?>">
     	<div class="form-group">
-		<tbody>
+		<table>
 			<tr>
 				<td class="reg_tab_title" colspan="2">
 				   Dane identyfikacyjne
@@ -94,10 +95,11 @@
 			</tr>
 			
 			
-		</tbody>
+		</table>
     	</div>
     	<input class="btn btn-primary" name="submit" type="submit" value="Zmień" />
         <a class="btn btn-danger" href="<?php echo ROOT_URL; ?>admin">Anuluj</a>
     </form>
   </div>
 </div>
+</section>
