@@ -125,6 +125,13 @@ Fixed Navigation
     
     <!-- Custom js -->
     <script src="../../js/script.js"></script>
+    <footer id="footer" class="bg-one">
+  
 
+  <div class="footer-bottom">
+    <h5>Copyright 2022. All rights reserved.</h5>
+    <h6>Design and Developed by Krystian Łabęcki</h6>
+  </div>
+</footer> <!-- end footer -
   </body>
   </html>
